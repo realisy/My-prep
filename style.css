@@ -1,0 +1,94 @@
+body {
+     background-color: #ffffc6;
+     font-family: 'Indie Flower', cursive;
+     margin: 10px;
+}
+
+.food_pic {
+    display: none;
+}
+
+img {
+     border: solid 1px goldenrod;
+     border-radius: 3%;
+     box-shadow: 1px 1px 5px goldenrod;
+     -webkit-filter: blur(5px); /* Chrome, Safari, Opera */
+     filter: blur(5px);
+     max-width: 550px
+}
+
+img:hover {
+     -webkit-filter: none; /* Chrome, Safari, Opera */
+     filter: none;
+}
+
+#page-wrap {
+     width: 600px;
+     margin: 0 auto;
+}
+
+.text_part {
+     border : dotted 3px goldenrod;
+     border-radius: 3%;
+     padding: 10px
+}
+
+ul {
+     list-style-type: none;
+     text-indent: -2em
+}
+
+ol {
+     text-align: left;
+}
+
+.house_seasoning {
+     display: inline-block;
+     border: solid 1px goldenrod;
+     background-color: #ffe760;
+     padding: 0px 10px 0px 10px;
+}
+
+.house_seasoning_p {
+     text-align: left;
+}
+
+.dish_name {
+     color: goldenrod;
+     text-decoration: underline;
+     font-size: 50px;
+     font-weight: bold;
+}
+
+div h2 {
+     color: goldenrod;
+     display: inline-block;
+}
+
+body div {
+     text-align: center;
+}
+
+.recipe_from {
+     font-size: 50%;
+}
+
+.devider {
+     visibility: hidden;
+     margin: 20px 0px 20px 0px;
+}
+
+
+#feedback {
+    font-size: 1em;
+}
+
+#directions_selectable .ui-selecting { background: #DAA520; }
+#directions_selectable .ui-selected { background: #DAA520; color: white; }
+#directions_selectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#directions_selectable li { margin: 3px; padding: 0.3em; font-size: 1em; height: 18px; }
+
+.instruction {
+    font-size: 0.75em;
+    text-decoration: underline;
+}
